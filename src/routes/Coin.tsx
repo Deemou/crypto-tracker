@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import styled from "styled-components";
 import { Helmet } from "react-helmet-async";
-import { useRecoilValue, useSetRecoilState } from "recoil";
+import { useRecoilState } from "recoil";
 import { isDarkAtom } from "../atoms";
 import { fetchCoinInfo, fetchCoinTickers } from "../api";
 import { Header, NavigationIcon, Title } from "../components/Header";
@@ -139,8 +139,7 @@ function Coin() {
     });
 
   const loading = infoLoading || tickersLoading;
-  const isDark = useRecoilValue(isDarkAtom);
-  const setDarkAtom = useSetRecoilState(isDarkAtom);
+  const [isDark, setDarkAtom] = useRecoilState(isDarkAtom);
   const toggleDarkAtom = () => setDarkAtom((prev) => !prev);
 
   return (
