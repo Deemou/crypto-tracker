@@ -48,7 +48,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://deemou.github.io/react-masterclass",
+  "homepage": "https://deemou.github.io/crypto-tracker",
   "devDependencies": {
     "@tanstack/react-query-devtools": "^4.20.4",
     "@types/jest": "^29.2.5",
