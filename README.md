@@ -1,16 +1,26 @@
-# React JS Challenge
+## Contents
 
-## Description
-**Crypto Tracker** provides information about the top 100 cryptocurrencies.
+- [Introduction](#introduction)
+- [Main Feature](#main-feature)
+- [Environment](#environment)
 
-## What you can see
-- Basic information
-- Price chart
-- Price change rate
+## Introduction
 
-## Requirements
+주요 암호화폐들의 정보들만 쏙쏙 제공하는 서비스입니다.
 
-- Add a toggle button that switches between **dark and light modes** when pressed.
-- Add a home button.
-- Implement the tab `/:coinId/price`
-- Change the chart type on the tab `/:coinId/chart` to **CandleStick**.
+## Main Feature
+
+- 주요 암호화폐 정보 제공
+- 가격 차트 제공
+- 가격 변동률 제공
+- 다크모드 토글 기능
+
+## Environment
+
+- Language: JavaScript, TypeScript
+- Framework: React.js
+- CSS: Styled Components
+- Server Data State Management: React Query
+- Status Management: Recoil
+- Other Library: Apex Charts
+- Deploy: Github
