@@ -21,6 +21,6 @@
 - Framework: React.js
 - CSS: Styled Components
 - Server Data State Management: React Query
-- Status Management: Recoil
+- State Management: Recoil
 - Other Library: Apex Charts
 - Deploy: Github
